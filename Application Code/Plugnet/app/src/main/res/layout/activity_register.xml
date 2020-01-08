@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CREATE AN ACCOUNT"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/rEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/rPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+
+    <!--<Button-->
+        <!--android:id="@+id/rCreate"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginHorizontal="50dp"-->
+        <!--android:layout_marginTop="40dp"-->
+        <!--android:background="@drawable/blue_background"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"-->
+        <!--android:text="Create Account"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:textSize="18sp" />-->
+
+
+    <Button
+    android:id="@+id/rCreate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/defaultblue_background"
+    android:elevation="3dp"
+    android:padding="5dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+    android:text="Create Account"
+    android:textColor="@android:color/white"
+    android:textSize="18sp" />
+
+
+</LinearLayout>

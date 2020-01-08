@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="ACCOUNT" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/black">
+        </View>
+
+
+        <TextView
+            android:id="@+id/tvFName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="Email address"
+            android:textSize="24sp"
+            android:typeface="sans" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/darker_gray">
+        </View>
+
+        <TextView
+            android:id="@+id/passwordReset"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Change Password                              >"
+            android:textSize="24sp"
+            android:clickable="true"
+            android:typeface="sans" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/black">
+        </View>
+
+
+        <!--<Button-->
+            <!--android:id="@+id/logout"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawablePadding="15dp"-->
+            <!--android:text="Sign out from Plugnet"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:textColor="#00adff"-->
+            <!--android:textSize="18sp"-->
+            <!--android:typeface="sans" />-->
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/defaultblue_background"
+            android:text="Sign out from Plugnet"
+            android:textColor="@android:color/white" />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

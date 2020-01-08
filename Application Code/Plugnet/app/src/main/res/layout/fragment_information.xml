@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/modesTV"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:text="Modes                                                >"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:typeface="sans" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray">
+        </View>
+
+        <TextView
+            android:id="@+id/thresholdTV"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="fill"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:text="Threshold Temperatures                 >"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:typeface="sans" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray">
+        </View>
+
+    </LinearLayout>
+
+</FrameLayout>

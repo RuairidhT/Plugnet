@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationModesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Plug Modes"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Default Mode"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Default mode removes all context-aware functionality, so if you want to use a device that hasn't yet been implemented you can use it as a normal smart plug." />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Fan Mode"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView111"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Fan mode should be used when a fan is plugged into the plug, this allows for you to set a threshold in which you would like to keep the temperature of your room at.
+The plug uses an API to get outside temperatures so if the temperature outside is lower, it will not turn on the plug to help save energy." />
+
+        <TextView
+            android:id="@+id/textView92"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            android:text="Radiator Mode"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1112"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Radiator mode should be used when a radiator is plugged into the plug, this allows for you to set a threshold in which you would like to keep the temperature of your room at.
+The plug uses an API to get outside temperatures so if the temperature outside is higher, it will not turn on the plug to help save energy." />
+
+    </LinearLayout>
+
+</FrameLayout>

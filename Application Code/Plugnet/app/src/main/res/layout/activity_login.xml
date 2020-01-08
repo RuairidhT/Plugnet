@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="SIGN IN"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/emailL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/passwordL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:text="Forgot password?"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+
+    <!--<Button-->
+    <!--android:id="@+id/loginBtn"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginHorizontal="50dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:background="@drawable/blue_background"-->
+    <!--android:text="Sign in"-->
+    <!--android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"-->
+    <!--android:textColor="@android:color/white"-->
+    <!--android:textSize="18sp" />-->
+
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/defaultblue_background"
+        android:elevation="3dp"
+        android:padding="5dp"
+        android:text="Sign in"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
